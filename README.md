@@ -7,6 +7,8 @@
 
 ---
 
+![SEO Meta Laravel Package](https://raw.githubusercontent.com/paulund/seo-meta/refs/heads/main/assets/images/seo-meta.webp)
+
 SEO Meta is a package to help you manage your SEO meta tags in your Laravel application.
 
 ## Installation
