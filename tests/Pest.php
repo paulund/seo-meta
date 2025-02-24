@@ -11,5 +11,5 @@
 |
 */
 
-//pest()->extend(\Paulund\SeoMeta\Tests\TestCase::class)->in('Feature');
-//pest()->extend(\Paulund\SeoMeta\Tests\TestCase::class)->in('Unit');
+// pest()->extend(\Paulund\SeoMeta\Tests\TestCase::class)->in('Feature');
+// pest()->extend(\Paulund\SeoMeta\Tests\TestCase::class)->in('Unit');
