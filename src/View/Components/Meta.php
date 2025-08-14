@@ -63,7 +63,9 @@ class Meta extends Component
         $this->charset = $this->meta['charset'] ?? 'utf-8';
         $this->viewport = $this->meta['viewport'] ?? 'width=device-width, initial-scale=1.0';
 
-        if (empty($this->image) && ! empty($this->title)) {
+        if (config('seo-meta.enable-og-image-generator') === true
+            && empty($this->image)
+            && ! empty($this->title)) {
             $this->image = route('og-image', ['title' => $this->title]);
         }
     }
