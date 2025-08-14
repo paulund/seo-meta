@@ -17,7 +17,7 @@ class SeoMetaServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../config' => config_path(),
+            __DIR__.'/../config' => config_path(),
         ], 'paulund/seo-meta');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'seo-meta');
         Blade::component('meta', Meta::class);
