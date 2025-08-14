@@ -10,9 +10,9 @@ parameters:
     # Level 9 is the highest level
     level: 5
 
-#    ignoreErrors:
-#        - '#PHPDoc tag @var#'
-#
+    ignoreErrors:
+        - '#Parameter \#1 \$view of function view expects view-string\|null, string given#'
+
 #    excludePaths:
 #        - ./*/*/FileToBeExcluded.php
 #
