@@ -3,6 +3,7 @@
 namespace Paulund\SeoMeta\Tests;
 
 use Illuminate\Foundation\Testing\Concerns\InteractsWithViews;
+use Paulund\SeoMeta\SeoMetaServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -19,7 +20,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            \Paulund\SeoMeta\SeoMetaServiceProvider::class,
+            SeoMetaServiceProvider::class,
         ];
     }
 
